@@ -32,7 +32,6 @@ const Map = () => {
       iconAnchor: [12, 41], // Point of the icon which will correspond to marker's location
       popupAnchor: [1, -34], // Point from which the popup should open relative to the iconAnchor
     });
-
     L.marker([-17.380808, -66.169416], { icon: customIcon }).addTo(map.current);
 
   }, [center.lng, center.lat, zoom]);
